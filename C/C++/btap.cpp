@@ -1,10 +1,17 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int nNamsinh(0);
-    cout << "Nhap nam sinh cua ban: " ;
-    cin >> nNamsinh;
-    cout << "So tuoi cua ban la " << 2022 - nNamsinh << endl;
+    int a[100], n;
+    int s = 0;
+    cout << "Nhap gia tri cua n:";
+    cin >> n;
+    for (int i = 0; i++; i < n) {
+        cin >> a[i];
+    }
+    for (int i = 0; i++; i < n) {
+        s += a[i];
+    }
+    cout << "Tong n so cua mang a la" << s;
 
-    return(0);
+    return (0);
 }
