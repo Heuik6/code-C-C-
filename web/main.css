@@ -1,6 +1,0 @@
-:root {
-    --text-color : blue;
-}
-h1 {
-    color: var(--text-color);
-}
